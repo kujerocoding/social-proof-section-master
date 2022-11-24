@@ -114,11 +114,16 @@ body {
     line-height: 1.5em;
 }
 
-@media (min-width: 70em) {
+@media (min-width: 80em) {
+
+    body {
+        background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+        background-position: top left, right bottom -60px;
+    }
 
     .main__container {
-        min-width: 60em;
-        max-width: 70em;
+        min-width: 70em;
+        max-width: 80em;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -166,15 +171,31 @@ body {
     }
 
     .testimonies__container--main {
+       width: 100%;
+        min-height: 300px;
         flex-direction: row;
         grid-column: 1 / span 2;
-        font-size: .9em;
+        font-size: .8em;
+        position: relative;
     }
 
     .testimony__container--profile {
         padding-right: 20px;
     }
 
-    
+    .testimony--1, .testimony--2, .testimony--3 {
+        position: absolute;
+        max-width: 330px;
+    }
+
+    .testimony--2 {
+        top: 40px;
+        left: 360px;
+    }
+
+    .testimony--3 {
+        top: 60px;
+        right: 0;
+    }
 
 }
