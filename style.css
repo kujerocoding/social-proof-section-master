@@ -124,27 +124,57 @@ body {
     }
 
     .header__title {
-        font-size: 3em;
+        font-size: 3.5em;
         
     }
 
     .header__container {
-        max-width: 25em;
+        max-width: 30em;
         text-align: left;
     }
 
     .reviews__container--main {
         max-width: 30em;
+        position: relative;
     }
 
     .reviews__container--sub {
         flex-direction: row;
-        justify-content: space-evenly;
-        padding: 20px;
+        justify-content: start;
+        padding-block: 15px;
+        padding-inline: 30px;
+    }
+
+    .rate--1, .rate--2, .rate--3 {
+        position: absolute;
+        min-width: 23em;
+    }
+
+    .rate--1 {
+        left: 10px;
+        top: 40px;
+    }
+
+    .rate--2 {
+        left: 60px;
+        top: 105px;
+    }
+
+    .rate--3 {
+        left: 110px;
+        top: 170px;
     }
 
     .testimonies__container--main {
         flex-direction: row;
         grid-column: 1 / span 2;
+        font-size: .9em;
     }
+
+    .testimony__container--profile {
+        padding-right: 20px;
+    }
+
+    
+
 }
