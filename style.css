@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --FF: 'League Spartan', sans-serif;
+    --FS: 15px;
+    --TESTIMONYCONTAINERCOLOR: hsl(300, 43%, 22%);
+    --TESTIMONYBUYERCOLOR: hsl(333, 80%, 67%);
+    --DARKGRAYISHMAGENTACOLOR: hsl(303, 10%, 53%);
+    --LIGHTGRAYISHMAGENTACOLOR: hsl(300, 24%, 96%);
+    --WHITECOLOR: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
