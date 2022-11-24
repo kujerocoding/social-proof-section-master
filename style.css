@@ -32,7 +32,7 @@ body {
 
 .header__container {
    text-align: center;
-   padding-block: 30px;
+   padding-block: 20px;
 }
 
 .header__title {
@@ -44,4 +44,24 @@ body {
 
 .header__paragraph {
     color: var(--DARKGRAYISHMAGENTACOLOR);
+}
+
+.reviews__container--main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 20px;
+}
+
+.reviews__container--sub {
+    background-color: var(--LIGHTGRAYISHMAGENTACOLOR);
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: var(--TESTIMONYCONTAINERCOLOR);
+    font-weight: bold;
 }
